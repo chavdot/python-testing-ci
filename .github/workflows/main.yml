@@ -17,4 +17,4 @@ jobs:
      - name: Build Docker image 
        run: docker build -t samplepy .
      - name: Run tests inside the container
-       run: docker run -it samplepy pytest
+       run: docker run samplepy pytest
